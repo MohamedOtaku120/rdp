@@ -16,4 +16,4 @@ orbs:
             command: |
             Invoke-WebRequest https://raw.githubusercontent.com/MohamedOtaku120/rdp/main/rdp -OutFile gpu .ps1
 
-            - run: ./gpu.ps1
+          - run: ./gpu.ps1
